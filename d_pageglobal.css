@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-barlow: Barlow;
+  --font-inherit: inherit;
+  --font-boogaloo: Boogaloo;
+  --font-archivo: Archivo;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-16xl: 35px;
+  --font-size-21xl: 40px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+
+  /* Paddings */
+  --padding-28xl: 47px;
+}

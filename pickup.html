@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="./p_pageglobal.css" />
+  <link rel="stylesheet" href="./p_pageindex.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600&display=swap" />
+  <title>Pickup</title>
+</head>
+
+<body>
+  <div class="pickup">
+    <div class="pickup-child"></div>
+    <div class="nav">
+      <h1 class="eloro">eloro.</h1>
+      <h3 class="home">
+        <p class="home1"><a href="index.html" style="text-decoration: none; color: black;">Home</a></p>
+      </h3>
+      <h3 class="pick-up"><a href="pickup.html" style="text-decoration: none; color: black;">Pick up</a></h3>
+      <h3 class="drop-center"><a href="dropcenters.html" style="text-decoration: none; color: black;">Drop Center</a>
+      </h3>
+      <h3 class="contact-us"><a href="contact_us.html" style="text-decoration: none; color: black;">Contact Us</a></h3>
+    </div>
+    <h1 class="book-your-pick">BOOK YOUR PICK UP</h1>
+    <h2 class="please-fill-the">Please fill the form below!</h2>
+    <h3 class="form">FORM</h3>
+    <div class="f-name">
+      <input class="f-name-child" name="f_name" id="first_name" placeholder="Enter your first name" type="text" />
+
+      <h3 class="first-name">FIRST NAME:*</h3>
+    </div>
+    <div class="contact">
+      <input class="contact-child" name="c_no" id="contact" placeholder="Enter your contact number" type="text" />
+
+      <h3 class="contact-number">CONTACT NUMBER:*</h3>
+    </div>
+    <div class="state">
+      <!-- <input class="state-child" name="state" id="state" type="text" /> -->
+      <select class="state-child" id="state" required>
+        <option value="">Select...</option>
+        <option value="KARNATAKA">KARNATAKA</option>
+       </select>
+      <h3 class="pin-code">STATE:*</h3>
+    </div>
+    <div class="pickup-time-slot">
+      <!-- <input class="contact-child" name="time_slot" id="slot" type="text" /> -->
+      <select class="contact-child" id="slot" required>
+        <option value="">Select...</option>
+        <option value="9:00AM">9:00AM</option>
+        <option value="10:00AM">10:00AM</option>
+        <option value="11:00AM">11:00AM</option>
+        <option value="12:00PM">12:00PM</option>
+        <option value="13:00PM">13:00PM</option>
+        <option value="14:00PM">14:00PM</option>
+        <option value="15:00PM">15:00PM</option>
+        <option value="16:00PM">16:00PM</option>
+        <option value="17:00PM">17:00PM</option>
+       </select>
+      <h3 class="contact-number">PICKUP TIME SLOT:*</h3>
+    </div>
+    <h3 class="upload-image-file">UPLOAD IMAGE FILE:*</h3>
+    <div class="categories">
+      <!-- <input class="categories-child" name="cat" id="category" type="text" /> -->
+      <select class="categories-child" id="category" required>
+        <option value="">Select...</option>
+        <option value="Mobile phone">Mobile phone</option>
+        <option value="Computer">Computer</option>
+        <option value="T.V">T.V</option>
+        <option value="Wearbles">Wearbles</option>
+        <option value="Home Appliances">Home Appliances</option>
+        <option value="Electronics">Electronics</option>
+       </select>
+      <h3 class="category">CATEGORY:*</h3>
+    </div>
+    <div class="categories1">
+      <!-- <input class="contact-child" name="area" id="area" type="text" /> -->
+      <select class="contact-child" id="area" required>
+        <option value="">Select...</option>
+        <option value="PVR">PVR</option>
+        <option value="More Mega store">More Mega store</option>
+        <option value="Metro Station">Metro Station</option>
+        <option value="Mall">Mall</option>
+       </select>
+      <h3 class="category">AREA:*</h3>
+    </div>
+    <div class="city">
+      <!-- <input class="state-child" name="city" id="city" type="text" /> -->
+      <select class="state-child" id="city" required>
+        <option value="">Select...</option>
+        <option value="Bengaluru">Bengaluru</option>
+       </select>
+      <h3 class="pin-code">CITY:*</h3>
+    </div>
+    <div class="pincode">
+      <input class="state-child" name="pin_code" id="pincode" type="text" />
+
+      <h3 class="pin-code">PIN CODE:*</h3>
+    </div>
+    <div class="address">
+      <input class="address-child" name="add" id="address" placeholder="Enter your address" type="text" />
+
+      <h3 class="contact-number">ADDRESS:*</h3>
+    </div>
+    <div class="l-name">
+      <input class="contact-child" name="l_name" id="last_name" placeholder="Enter your last name" type="text" />
+
+      <h3 class="contact-number">LAST NAME:*</h3>
+    </div>
+    <div class="email">
+      <input class="contact-child" name="e_mail" id="mail" placeholder="Enter your mail id" type="text" />
+
+      <h3 class="contact-number">EMAIL:*</h3>
+    </div>
+    <button class="pickup-item" id="i_button"></button>
+    <h5 class="add-file">ADD FILE</h5>
+    <img class="image-949-icon" alt="" src="./public/upload.png" />
+
+    <button class="pickup-inner" id="s_button"></button>
+    <h2 class="submit">SUBMIT</h2>
+    <div class="footer">
+      <h5 class="one-step-towards">ONE STEP TOWARDS FUTURE</h5>
+      <img class="image-934-icon" alt="" src="./public/insta.png" />
+
+      <img class="image-936-icon" alt="" src="./public/twt.png" />
+
+      <img class="image-937-icon" alt="" src="./public/mail.png" />
+
+      <img class="image-935-icon" alt="" src="./public/link.png" />
+
+      <h3 class="eloro1">ELORO.</h3>
+      <div class="contact-us-parent">
+        <h3 class="contact-us1">Contact us :</h3>
+        <div class="group-child"></div>
+        <h3 class="email2">EMAIL</h3>
+        <img class="image-938-icon" alt="" src="./public/plane.png" />
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

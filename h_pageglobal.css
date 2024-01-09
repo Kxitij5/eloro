@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-special-elite: "Special Elite";
+  --font-barlow: Barlow;
+  --font-amaranth: Amaranth;
+  --font-anek-kannada: "Anek Kannada";
+  --font-amiri: Amiri;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-11xl: 30px;
+  --font-size-16xl: 35px;
+  --font-size-21xl: 40px;
+  --font-size-31xl: 50px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-seagreen-100: #3c7a49;
+  --color-black: #000;
+  --color-honeydew: rgba(226, 246, 226, 0.5);
+  --color-gray: #181433;
+  --color-ivory: rgba(253, 255, 244, 0.75);
+
+  /* Border radiuses */
+  --br-mini: 15px;
+  --br-41xl: 60px;
+}

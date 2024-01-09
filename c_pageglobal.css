@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-archivo: Archivo;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-6xl: 25px;
+  --font-size-mini: 15px;
+
+  /* Colors */
+  --color-silver-100: #b9b9b9;
+  --color-white: #fff;
+  --color-seagreen: #3c7a49;
+  --color-greenyellow: #8bde22;
+  --color-black: #000;
+  --color-gray: rgba(255, 255, 255, 0.8);
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+}
